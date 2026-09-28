@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "modular-frontend-starter",
   "version": "0.1.0",
   "private": true,
@@ -49,7 +49,7 @@
     "prettier-plugin-tailwindcss": "0.8.1",
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
-    "vite": "8.3.0",
+    "vite": "8.3.1",
     "vitest": "5.0.1"
   },
   "lint-staged": {
