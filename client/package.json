@@ -60,4 +60,3 @@
     "*.{css,json,md,mdx,yml,yaml}": "prettier --write"
   }
 }
-
