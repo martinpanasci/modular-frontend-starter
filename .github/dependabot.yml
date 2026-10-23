@@ -4,3 +4,21 @@ updates:
     directory: "/client"
     schedule:
       interval: weekly
+    groups:
+      next-and-react:
+        patterns:
+          ["next", "react", "react-dom", "eslint-config-next", "@next/*"]
+      testing:
+        patterns:
+          [
+            "vitest",
+            "vite",
+            "@vitejs/*",
+            "@testing-library/*",
+            "@playwright/*",
+            "jsdom",
+          ]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

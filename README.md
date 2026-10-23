@@ -23,7 +23,7 @@ modular-frontend-starter/
 
 ## Inicio rápido
 
-Requiere Node.js >=22.12.0. Desde la raíz del repositorio:
+Requiere Node.js 22.23.4+ (rama 22) o 24.22.1+ (rama 24). Desde la raíz del repositorio:
 
 ```bash
 cd client
